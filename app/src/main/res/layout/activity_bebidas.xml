@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BebidasActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/aaa" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="494dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img28"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="8dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Whisky Jack Daniels N°7 750ml                - S/ 99.90
+"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="10dp"
+                android:translationY="10dp" />
+
+            <Button
+                android:id="@+id/btn1Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp"
+                android:translationY="20dp" />
+
+            <ImageView
+                android:id="@+id/img29"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text=" Whisky Jack Daniels Honey 750ml          - S/ 99.99"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="15dp"
+                android:translationY="-10dp" />
+
+            <Button
+                android:id="@+id/btn2Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp"
+                android:translationY="-10dp" />
+
+            <ImageView
+                android:id="@+id/img30"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationX="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="WHISKY GLENFIDDICH 12 AÑOS 750ML - S/ 138.00"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="20dp"
+               />
+
+            <Button
+                android:id="@+id/btn3Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+
+            <ImageView
+                android:id="@+id/img31"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="TEQUILA JIMADOR REPOSADO 750ML  - S/ 87.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn4Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+
+            <ImageView
+                android:id="@+id/img32"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Ron Flor de Caña 12 años 750ML             - S/ 104.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn5Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+
+            <ImageView
+                android:id="@+id/img33"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Licor Jagermeister 350 Ml Coolpack  - S/ 40.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="20dp"
+                />
+
+            <Button
+                android:id="@+id/btn6Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+
+            <ImageView
+                android:id="@+id/img34"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="CERVEZA PERONI SIX PACK  330ML - S/ 38.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="20dp"
+                />
+
+            <Button
+                android:id="@+id/btn7Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+
+            <ImageView
+                android:id="@+id/img35"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:translationY="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Whisky Jack Daniels Gentleman Jack 750ml - S/ 207.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp"
+                android:translationX="20dp"
+                />
+
+            <Button
+                android:id="@+id/btn8Alm"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="33dp"
+        android:text="REGRESAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

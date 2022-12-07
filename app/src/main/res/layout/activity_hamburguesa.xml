@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HamburguesaActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/aaa" />
+
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="487dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smoky BLT Quarter Pounder con Queso          - S/ 10.90 "
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn1ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smoky BLT Double Quarter Pounder con Queso  -   S/ 16.90 "
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn2ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Big Opti  - S/ 15.90 "
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn3ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Quarter Pounder con Queso - S/ 11.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn4ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img16"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/text29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Double Quarter Pounder con Queso  -           S/ 16.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn5ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img17"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Quarter Pounder Deluxe -  S/ 13.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn6ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img18"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" OptiDouble - S/ 12.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn7ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+            <ImageView
+                android:id="@+id/img19"
+                android:layout_width="387dp"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textv32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Quarter Pounder con Queso Bacon -              S/ 16.90"
+                android:textAlignment="center"
+                android:textColor="#FBF6F6"
+                android:textColorHint="#FDF9F9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn8ZG"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Comprar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:translationX="80dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="REGRESAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
